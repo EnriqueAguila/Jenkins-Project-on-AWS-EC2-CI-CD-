@@ -12,6 +12,7 @@ Jenkins is an open-source automation tool used for continuous integration (CI) a
 -Jenkins: CI/CD automation server
 -GitHub: Code repository
 -AWS EC2: Virtual instance for Jenkins
+
 ## CI/CD pipeline:
 -Build: Jenkins retrieves the code from GitHub and builds the application.
 -Testing: Jenkins runs unit and integration tests to validate the application.
@@ -22,15 +23,6 @@ Jenkins is an open-source automation tool used for continuous integration (CI) a
 
 ## Commands to run in programmatic access in the EC2 CLI.
 ![1 instalacion jenkins](https://github.com/user-attachments/assets/4c458705-b496-4d0e-bdf0-b17d3a83efc8)
-
-```bash
-az search service create --name my-search-service --resource-group my-resource-group --sku Standard
-az search index create --name my-index --service-name my-search-service --fields "title, content"
-
-![2 instalacion](https://github.com/user-attachments/assets/d6171a94-a305-487d-9975-4581fe53f0ba)
-
-## Complete installation
-![3 instalacion](https://github.com/user-attachments/assets/f4b68ffb-5e0d-4ca4-b1a9-5b73e7d3852b)
 
 ```sh
 sudo wget -O /etc/yum.repos.d/jenkins.repo \
